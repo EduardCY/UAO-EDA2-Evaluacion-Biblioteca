@@ -1,12 +1,21 @@
-# React + Vite
+# 🎓 Evaluación Práctica: Sistema de Biblioteca con Estructuras de Datos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **Evaluación Práctica — Estructura de Datos y Algoritmos 2 (UAO)**  
+> Aplicación práctica que integra listas enlazadas, colas de espera prioritarias y pilas de registro para la simulación de operaciones bibliotecarias en una SPA moderna.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Stack Tecnológico
+* **Core:** React, Vite, JavaScript ES6+
+* **Estructuras:** Implementación algorítmica pura integrada con el ciclo de vida de React.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Ejecución
+```bash
+npm install
+npm run dev
+```
+
+---
+*Universidad Autónoma de Occidente — Facultad de Ingeniería.*
