@@ -1,5 +1,5 @@
 {
-  "name": "bibliotecainteractiva",
+  "name": "uao-eda2-evaluacion-biblioteca",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -24,5 +24,9 @@
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^16.0.0",
     "vite": "^6.3.1"
-  }
+  },
+  "description": "Sistema de evaluacion practica de estructuras de datos persistentes y colecciones con React y Vite (UAO).",
+  "author": "Eduard Criollo Yule <https://github.com/EduardCY>",
+  "license": "MIT",
+  "homepage": "https://github.com/EduardCY/UAO-EDA2-Evaluacion-Biblioteca"
 }
