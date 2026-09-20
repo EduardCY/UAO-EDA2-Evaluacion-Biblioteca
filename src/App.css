@@ -1,0 +1,131 @@
+body {
+  background: linear-gradient(135deg, #f8fafc 0%, #fceabb 100%);
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  color: #111 !important; /* Letras negras por defecto */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  background: #fff8f0;
+  max-width: 650px;
+  margin: 48px auto 0 auto;
+  border-radius: 28px;
+  box-shadow: 0 8px 32px 0 rgba(60,60,60,0.08);
+  padding: 48px 36px 36px 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #111; /* Letras negras */
+}
+
+h1, h2 {
+  color: #111;
+  text-align: center;
+  margin-top: 0;
+}
+
+.botones-nav {
+  margin-bottom: 32px;
+  width: 100%;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.botones-nav button {
+  background: #a5dee5;
+  color: #111;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 22px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-weight: 500;
+}
+
+.botones-nav button:hover {
+  background: #f6c1c7;
+}
+
+form, ul {
+  width: 100%;
+}
+
+input[type="text"], select {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin: 6px 0;
+  background: #f3e8ff;
+  color: #111;
+  font-size: 1rem;
+  outline: none;
+  width: auto;
+}
+
+button {
+  background: #a5dee5;
+  color: #111;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 18px;
+  margin-left: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #f6c1c7;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #fef6e4;
+  margin-bottom: 14px;
+  border-radius: 12px;
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 8px 0 rgba(200,200,200,0.08);
+  color: #111;
+}
+
+li input[type="text"] {
+  min-width: 100px;
+}
+
+li button[type="button"] {
+  background: #f6c1c7;
+  color: #111;
+  margin-left: 10px;
+}
+
+li button[type="button"]:hover {
+  background: #f7b2ad;
+}
+
+p {
+  color: #111;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  body {
+    padding: 0;
+  }
+  .main-container {
+    max-width: 98vw;
+    padding: 18px 4vw 18px 4vw;
+  }
+}
